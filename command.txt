@@ -1,0 +1,7 @@
+curl -X POST "https://api-cn.faceplusplus.com/imagepp/v1/mergeface" \
+-F api_key="JYbBNFD0oYwTCU0IVqpDRN-EWaB2UsiC"  \
+-F api_secret="E37UC6ZUWFmmQGSXmp_Mt36XENv6q4gI"  \
+-F template_file="~/Downloads/family.jpeg" \
+-F template_rectangle=780,620,200,220
+-F merge_file=@merge_file.jpg \
+-F merge_rate=70
